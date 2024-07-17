@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1990s: The Birth of the Web</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="paper-back">
+      <nav>
+        <div class="close"></div>
+        <a href="./index.html">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Our Work</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+    <div id="paper-window">
+      <div id="paper-front">
+        <div class="hamburger"><span></span></div>
+        <div>
+          <header class="header-animation">
+            <img
+              src="./Black White Minimalist Logo.png"
+              alt="Logo"
+              class="logo"
+            />
+            <h1>1990s: The Birth of the Web</h1>
+            <p>Witness the early days of the World Wide Web.</p>
+          </header>
+          <div class="container">
+            <div class="grid">
+              <div class="buttoncontainer">
+                <a class="button instagram" href="./1990s.html"
+                  >1990s
+                  <i
+                    style="padding-left: 15px; padding-top: 15px"
+                    class="bi bi-instagram"
+                  ></i>
+                </a>
+              </div>
+
+              <div class="buttoncontainer">
+                <a class="button twitter" href="./2000s.html"
+                  >2000s
+                  <i
+                    style="padding-right: 15px; padding-top: 15px"
+                    class="bi bi-twitter"
+                  ></i>
+                </a>
+              </div>
+
+              <div class="buttoncontainer">
+                <a class="button github" href="./2010s.html"
+                  >2010s
+                  <i
+                    style="padding-left: 15px; padding-bottom: 15px"
+                    class="bi bi-github"
+                  ></i>
+                </a>
+              </div>
+
+              <div class="buttoncontainer">
+                <a class="button discord" href="./2020s.html"
+                  >2020s
+                  <i
+                    style="padding-right: 15px; padding-bottom: 15px"
+                    class="bi bi-discord"
+                  ></i>
+                </a>
+              </div>
+            </div>
+            <div><h1 class="glow">Select a Year</h1></div>
+            <div class="grid">
+              <div class="buttoncontainer">
+                <a class="button instagram" href="./2030s.html"
+                  >2030s
+                  <i
+                    style="padding-left: 15px; padding-top: 15px"
+                    class="bi bi-instagram"
+                  ></i>
+                </a>
+              </div>
+
+              <div class="buttoncontainer">
+                <a class="button twitter" href="">Static
+                  <i
+                    style="padding-right: 15px; padding-top: 15px"
+                    class="bi bi-twitter"
+                  ></i>
+                </a>
+              </div>
+
+              <div class="buttoncontainer">
+                <a class="button github" href="">Static
+                  <i
+                    style="padding-left: 15px; padding-bottom: 15px"
+                    class="bi bi-github"
+                  ></i>
+                </a>
+              </div>
+
+              <div class="buttoncontainer">
+                <a class="button discord" href="./index.html"
+                  >Home
+                  <i
+                    style="padding-right: 15px; padding-bottom: 15px"
+                    class="bi bi-discord"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <main>
+            <section>
+              <h2>Overview</h2>
+              <p>
+                The 1990s marked the birth of the World Wide Web, transforming
+                the way information was accessed and shared globally. Websites
+                during this era were characterized by basic HTML layouts and
+                minimal design aesthetics.
+              </p>
+            </section>
+            <section>
+              <h2>Key Features</h2>
+              <ul>
+                <li>
+                  <strong>Basic HTML Layouts:</strong> Websites were
+                  predominantly built using HTML (HyperText Markup Language),
+                  focusing on text-based content.
+                </li>
+                <li>
+                  <strong>Inline Styles:</strong> Styling elements directly
+                  within HTML tags using attributes like `style="..."`.
+                </li>
+                <li>
+                  <strong>Table-Based Layouts:</strong> Many websites used
+                  tables to structure content, lacking the flexibility of modern
+                  CSS layouts.
+                </li>
+                <li>
+                  <strong>Minimal Design Aesthetics:</strong> Design was
+                  rudimentary, often prioritizing functionality over visual
+                  appeal.
+                </li>
+              </ul>
+            </section>
+            <section class="example-container">
+              <h3>Example: Early Website Design</h3>
+              <p>
+                Below is an example of a website layout from the early 1990s,
+                showcasing basic HTML and table-based layout:
+              </p>
+              <div>
+                <h2>Welcome to Early Website Example</h2>
+                <p style="font-size: 18px; line-height: 1.6">
+                  This is a paragraph of text with inline styles.
+                </p>
+                <p>Another paragraph here.</p>
+
+                <h3>Products</h3>
+                <table>
+                  <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                  </tr>
+                  <tr>
+                    <td>Product A</td>
+                    <td>$20</td>
+                  </tr>
+                  <tr>
+                    <td>Product B</td>
+                    <td>$30</td>
+                  </tr>
+                </table>
+              </div>
+            </section>
+          </main>
+          <footer class="footer-animation">
+            <p>&copy; 2024 Digital Museum</p>
+          </footer>
+          <script src="./script.js"></script>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const paperMenu = {
+          $window: document.getElementById("paper-window"),
+          $paperFront: document.getElementById("paper-front"),
+          $hamburger: document.querySelector(".hamburger"),
+          offset: 1800,
+          pageHeight: document.getElementById("paper-front").offsetHeight,
+
+          open: function () {
+            if (this.$window && this.$hamburger) {
+              this.$window.classList.add("tilt");
+              this.$hamburger.removeEventListener(
+                "click",
+                this.open.bind(this)
+              );
+              document
+                .getElementById("container")
+                ?.addEventListener("click", this.close.bind(this));
+              this.$hamburger.addEventListener("click", this.close.bind(this));
+              this.hamburgerFix(true);
+              console.log("opening...");
+            } else {
+              console.error("Element not found for opening menu");
+            }
+          },
+          close: function () {
+            if (this.$window && this.$hamburger) {
+              this.$window.classList.remove("tilt");
+              document
+                .getElementById("container")
+                ?.removeEventListener("click", this.close.bind(this));
+              this.$hamburger.removeEventListener(
+                "click",
+                this.close.bind(this)
+              );
+              this.$hamburger.addEventListener("click", this.open.bind(this));
+              this.hamburgerFix(false);
+              console.log("closing...");
+            } else {
+              console.error("Element not found for closing menu");
+            }
+          },
+          updateTransformOrigin: function () {
+            const scrollTop =
+              window.pageYOffset || document.documentElement.scrollTop;
+            const equation =
+              ((scrollTop + this.offset) / this.pageHeight) * 100;
+            this.$paperFront.style.transformOrigin = "center " + equation + "%";
+          },
+          hamburgerFix: function (opening) {
+            if (this.$hamburger) {
+              if (opening) {
+                this.$hamburger.style.position = "absolute";
+                this.$hamburger.style.top =
+                  (window.pageYOffset || document.documentElement.scrollTop) +
+                  30 +
+                  "px";
+              } else {
+                setTimeout(() => {
+                  this.$hamburger.style.position = "absolute";
+                  this.$hamburger.style.top = "30px";
+                }, 300);
+              }
+            }
+          },
+          bindEvents: function () {
+            if (this.$hamburger && document.querySelector(".close")) {
+              this.$hamburger.addEventListener("click", this.open.bind(this));
+              document
+                .querySelector(".close")
+                .addEventListener("click", this.close.bind(this));
+              window.addEventListener(
+                "scroll",
+                this.updateTransformOrigin.bind(this)
+              );
+            } else {
+              console.error("Elements not found for binding events");
+            }
+          },
+          init: function () {
+            if (this.$window && this.$paperFront) {
+              this.bindEvents();
+              this.updateTransformOrigin();
+            } else {
+              console.error("Initialization error: elements not found");
+            }
+          },
+        };
+
+        paperMenu.init();
+      });
+    </script>
+  </body>
+</html>
