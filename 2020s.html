@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2020s - Evolution of UI/UX Design</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      img {
+        width: 50%;
+        height: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="paper-back">
+      <nav>
+        <div class="close"></div>
+        <a href="./index.html">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Our Work</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+    <div id="paper-window">
+      <div id="paper-front">
+        <div class="hamburger"><span></span></div>
+        <div>
+          <header class="header-animation">
+            <img
+              src="./Black White Minimalist Logo.png"
+              alt="Logo"
+              class="logo"
+            />
+            <h1>2020s - Evolution of UI/UX Design</h1>
+            <p>Modern trends and innovations in UI/UX design.</p>
+          </header>
+          <div class="container">
+            <div class="grid">
+              <div class="buttoncontainer">
+                <a class="button instagram" href="./1990s.html"
+                  >1990s
+                  <i
+                    style="padding-left: 15px; padding-top: 15px"
+                    class="bi bi-instagram"
+                  ></i>
+                </a>
+              </div>
+
+              <div class="buttoncontainer">
+                <a class="button twitter" href="./2000s.html"
+                  >2000s
+                  <i
+                    style="padding-right: 15px; padding-top: 15px"
+                    class="bi bi-twitter"
+                  ></i>
+                </a>
+              </div>
+
+              <div class="buttoncontainer">
+                <a class="button github" href="./2010s.html"
+                  >2010s
+                  <i
+                    style="padding-left: 15px; padding-bottom: 15px"
+                    class="bi bi-github"
+                  ></i>
+                </a>
+              </div>
+
+              <div class="buttoncontainer">
+                <a class="button discord" href="./2020s.html"
+                  >2020s
+                  <i
+                    style="padding-right: 15px; padding-bottom: 15px"
+                    class="bi bi-discord"
+                  ></i>
+                </a>
+              </div>
+            </div>
+            <div><h1 class="glow">Choose a Year</h1></div>
+            <div class="grid">
+              <div class="buttoncontainer">
+                <a class="button instagram" href="./2030s.html"
+                  >2030s
+                  <i
+                    style="padding-left: 15px; padding-top: 15px"
+                    class="bi bi-instagram"
+                  ></i>
+                </a>
+              </div>
+
+              <div class="buttoncontainer">
+                <a class="button twitter" href="">
+                  <i
+                    style="padding-right: 15px; padding-top: 15px"
+                    class="bi bi-twitter"
+                  ></i>
+                </a>
+              </div>
+
+              <div class="buttoncontainer">
+                <a class="button github" href="">
+                  <i
+                    style="padding-left: 15px; padding-bottom: 15px"
+                    class="bi bi-github"
+                  ></i>
+                </a>
+              </div>
+
+              <div class="buttoncontainer">
+                <a class="button discord" href="./index.html"
+                  >Home
+                  <i
+                    style="padding-right: 15px; padding-bottom: 15px"
+                    class="bi bi-discord"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <main>
+            <section>
+              <h2>Design Elements of the 2020s</h2>
+              <p>
+                The 2020s introduce modern design trends and innovations that
+                focus on user experience and visual appeal.
+              </p>
+            </section>
+            <section>
+              <h2>Material Design and Neomorphism</h2>
+              <p>
+                Material design principles and neomorphism enhance user
+                interface elements with depth and realism.
+              </p>
+              <div class="img-container">
+                <img
+                  src="https://img2.storyblok.com/860x0/filters:format(webp)/f/117250/1600x900/9dc1758cbd/material-design-cards-vs-neumorphism-cards.jpg"
+                  alt="Material Design and Neomorphism Example"
+                />
+                <p>Material design and neomorphism example</p>
+              </div>
+            </section>
+            <section>
+              <h2>Dynamic Animations and Scroll Effects</h2>
+              <p>
+                Dynamic animations and scroll effects engage users and improve
+                interaction on websites.
+              </p>
+              <div class="img-container">
+                <img
+                  src="https://www.bluecompass.com/filesimages/News%20and%20Blog/2019/scroll-animation.gif"
+                  alt="Dynamic Animations and Scroll Effects Example"
+                />
+                <p>Dynamic animations and scroll effects example</p>
+              </div>
+            </section>
+            <section>
+              <h2>Light and Dark Modes</h2>
+              <p>
+                Light and dark modes offer users customizable visual experiences
+                for different lighting conditions.
+              </p>
+              <div class="img-container">
+                <img
+                  src="https://www.hp.com/us-en/shop/app/assets/images/uploads/prod/What%20is%20Dark%20Mode%20and%20How%20to%20Turn%20it%20On%20or%20Off1648514558189227.jpg"
+                  alt="Light and Dark Modes Example"
+                />
+                <p>Light and dark modes example</p>
+              </div>
+            </section>
+          </main>
+          <footer class="footer-animation">
+            <p>&copy; 2024 Digital Museum</p>
+          </footer>
+          <script src="./script.js"></script>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const paperMenu = {
+          $window: document.getElementById("paper-window"),
+          $paperFront: document.getElementById("paper-front"),
+          $hamburger: document.querySelector(".hamburger"),
+          offset: 1800,
+          pageHeight: document.getElementById("paper-front").offsetHeight,
+
+          open: function () {
+            if (this.$window && this.$hamburger) {
+              this.$window.classList.add("tilt");
+              this.$hamburger.removeEventListener(
+                "click",
+                this.open.bind(this)
+              );
+              document
+                .getElementById("container")
+                ?.addEventListener("click", this.close.bind(this));
+              this.$hamburger.addEventListener("click", this.close.bind(this));
+              this.hamburgerFix(true);
+              console.log("opening...");
+            } else {
+              console.error("Element not found for opening menu");
+            }
+          },
+          close: function () {
+            if (this.$window && this.$hamburger) {
+              this.$window.classList.remove("tilt");
+              document
+                .getElementById("container")
+                ?.removeEventListener("click", this.close.bind(this));
+              this.$hamburger.removeEventListener(
+                "click",
+                this.close.bind(this)
+              );
+              this.$hamburger.addEventListener("click", this.open.bind(this));
+              this.hamburgerFix(false);
+              console.log("closing...");
+            } else {
+              console.error("Element not found for closing menu");
+            }
+          },
+          updateTransformOrigin: function () {
+            const scrollTop =
+              window.pageYOffset || document.documentElement.scrollTop;
+            const equation =
+              ((scrollTop + this.offset) / this.pageHeight) * 100;
+            this.$paperFront.style.transformOrigin = "center " + equation + "%";
+          },
+          hamburgerFix: function (opening) {
+            if (this.$hamburger) {
+              if (opening) {
+                this.$hamburger.style.position = "absolute";
+                this.$hamburger.style.top =
+                  (window.pageYOffset || document.documentElement.scrollTop) +
+                  30 +
+                  "px";
+              } else {
+                setTimeout(() => {
+                  this.$hamburger.style.position = "absolute";
+                  this.$hamburger.style.top = "30px";
+                }, 300);
+              }
+            }
+          },
+          bindEvents: function () {
+            if (this.$hamburger && document.querySelector(".close")) {
+              this.$hamburger.addEventListener("click", this.open.bind(this));
+              document
+                .querySelector(".close")
+                .addEventListener("click", this.close.bind(this));
+              window.addEventListener(
+                "scroll",
+                this.updateTransformOrigin.bind(this)
+              );
+            } else {
+              console.error("Elements not found for binding events");
+            }
+          },
+          init: function () {
+            if (this.$window && this.$paperFront) {
+              this.bindEvents();
+              this.updateTransformOrigin();
+            } else {
+              console.error("Initialization error: elements not found");
+            }
+          },
+        };
+
+        paperMenu.init();
+      });
+    </script>
+  </body>
+</html>
