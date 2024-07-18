@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const toggleButton = document.createElement("button");
-  toggleButton.innerText = "Dark Mode On/Off";
+  toggleButton.innerText = "Dark Mode";
   toggleButton.style.position = "fixed";
   toggleButton.style.top = "20px";
   toggleButton.style.right = "30px";
@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
   toggleButton.style.alignItems = "center";
   toggleButton.style.justifyContent = "center";
   toggleButton.style.fontSize = "0.8rem";
+  toggleButton.style.fontFamily= "Edu AU VIC WA NT Hand, cursive";
   document.body.appendChild(toggleButton);
 
   if (localStorage.getItem("dark-mode") === "enabled") {
