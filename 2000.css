@@ -66,8 +66,3 @@ footer {
 .footer-links a:hover {
   text-decoration: underline;
 }
-.title {
-  margin-bottom: 200px;
-  font-size: 40px;
-  font-weight: bolder;
-}
