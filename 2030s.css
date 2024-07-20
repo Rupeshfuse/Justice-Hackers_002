@@ -923,7 +923,7 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   padding: var(--padding-101xl) 312px;
-  background-image: url(./scooty.jpg);
+  background-image: url(./img/scooty.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
