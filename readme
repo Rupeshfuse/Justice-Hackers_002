@@ -1,0 +1,158 @@
+# Project Title
+Evolution of   UI/UX   Design 
+
+## Introduction
+This project showcases the evolution of UI/UX design/webpages over the decades, highlighting the significant trends and technologies that have shaped the web as we know it today.
+
+## Project Type
+Frontend 
+
+## Deplolyed App
+Frontend: https://creative-lokum-0b5bea.netlify.app/
+
+
+## Directory Structure
+
+├─ Justice-Hackers_002
+|  ├─ img
+|  ├─ index.html
+
+## Video Walkthrough of the project
+Attach a very short video walkthough of all of the features [ 1 - 3 minutes ]
+
+## Video Walkthrough of the codebase
+Attach a very short video walkthough of codebase [ 1 - 5 minutes ]
+
+## Features
+List out the key features of your application.
+
+- More than 3 diffrent diffrent types of hamburgers 
+- Used lots of javascript Functionality
+- Dark Mode
+- Responsive Design
+- Used CSS Grid
+- Used CSS Flexbox
+- Used CSS Variables
+- Used CSS Animations
+- Used CSS Transitions
+- Used CSS Transform
+- Used CSS Media Queries
+- Used CSS Pseudo Elements
+- Used CSS Pseudo Classes
+- Used Scrolled based Animations 
+- Used CSS Positioning
+- Used CSS Box Model
+- Used CSS Selectors
+- Used CSS Units
+- Used CSS Text
+- Used CSS Backgrounds
+- Used CSS Borders
+- Used CSS Margins
+- Used CSS Padding
+- Used CSS Display 
+- Used CSS Overflow
+- Used CSS List
+- Used CSS Table
+- Used CSS Font
+- Used CSS Color
+- Used CSS Opacity
+- Used CSS Box Shadow
+- Used CSS Text Shadow
+- Used CSS Border Radius
+- Used CSS Linear Gradient
+- Used CSS Radial Gradient
+    And Many more   
+
+## design decisions or assumptions
+Design Decisions & Assumptions for HTML/CSS Project
+
+Design Decisions:
+
+1. Layout Structure:
+   - Grid or Flexbox: Choosing between CSS Grid and Flexbox for layout management based on the project requirements.
+   - Container Width: Fixed-width vs. fluid-width containers.
+
+2. Typography:
+   - Font Choices: Deciding on primary and secondary fonts, including web-safe or custom fonts.
+   - Font Sizes and Line Heights: Choosing appropriate sizes for headings, paragraphs, and other text elements for readability.
+
+3. Color Scheme:
+   - Primary and Secondary Colors: Defining a color palette that aligns with the brand or project theme.
+   - Contrast Ratios: Ensuring text and background colors meet accessibility standards for readability.
+
+4. Spacing:
+   - Margins and Padding: Determining consistent spacing for elements to ensure a balanced and visually appealing layout.
+
+5. Responsive Design:
+   - Media Queries: Setting breakpoints for different screen sizes and ensuring elements adapt accordingly.
+   - Mobile vs. Desktop Layouts: Designing different layouts or adjusting styles based on device type.
+
+6. Navigation:
+   - Menu Design: Deciding on the navigation style (e.g., horizontal, vertical, hamburger menu) and how it adapts to different screen sizes.
+   - Accessibility: Ensuring navigation is accessible with keyboard and screen readers.
+
+7. Animations and Transitions:
+   - Types of Animations: Choosing between fade-ins, slide-ins, hover effects, etc.
+   - Performance Considerations: Ensuring animations do not adversely impact page load times or performance.
+
+8. Image Handling:
+   - Responsive Images: Using srcset or other techniques to ensure images scale properly across devices.
+   - Image Formats: Deciding on formats (JPEG, PNG, SVG) based on quality and performance needs.
+
+9. Forms:
+   - Input Styles: Designing form fields, buttons, and validation messages.
+   - Error Handling: Providing clear feedback and error messages.
+
+10. Accessibility:
+    - ARIA Roles: Adding ARIA attributes where necessary to enhance screen reader support.
+    - Focus Management: Ensuring interactive elements are focusable and navigable via keyboard.
+
+Assumptions:
+
+1. Browser Support:
+   - Modern Browsers: Assuming the project targets modern browsers and not older versions.
+   - CSS Features: Assuming support for CSS features used, such as Flexbox or Grid.
+
+2. User Demographics:
+   - Target Audience: Assuming the design aligns with the preferences and needs of the intended audience.
+   - Device Usage: Assuming a mix of desktop and mobile usage, affecting responsive design choices.
+
+3. Performance:
+   - Page Load Speed: Assuming users expect fast loading times and optimizing assets accordingly.
+   - Internet Connection: Assuming users have a stable internet connection, though optimizing for slower connections might be considered.
+
+4. Content Management:
+   - Content Updates: Assuming content will be updated regularly and the design accommodates easy updates.
+   - Content Structure: Assuming a certain structure or hierarchy for content.
+
+5. Project Scope:
+   - Feature Set: Assuming specific features will be implemented based on project requirements or client needs.
+   - Timeline: Assuming the project has a set timeline that influences the complexity of design elements and features.
+
+
+## Installation & Getting started
+Get access to github link , clone it to your system by using command (git clone "github link"), Run index.html
+
+
+## Usage
+This exhibit aims to educate and inspire visitors about the principles, technologies, and trends that have shaped UI/UX design over the decades. Whether you're a student, a design enthusiast, or a professional in the field, this exhibit offers insights into how design aesthetics and user experiences have evolved alongside technological advancements.
+
+
+Include screenshots as necessary.
+
+## Credentials
+No Credentials
+
+## APIs Used
+No API
+
+
+
+
+## Technology Stack
+List and provide a brief overview of the technologies used in the project.
+
+- HTML5
+- CSS3
+- Javascript
+- Bootstrap
