@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook.com</title>
+    <link rel="stylesheet" href="./2010.css">
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">facebook</div>
+        <div class="login-form">
+          <div>
+            <label  for="Email" id="Email">Email</label><br>
+            <input style="width: 250px; margin-top: 5px;  margin-bottom: 5px;" type="text" name="email"/>
+            <div><input  type="checkbox" id="keep-logged-in">
+              <label style="font-size: 14px; color: rgba(255, 255, 255, 0.667); " for="keep-logged-in">Keep me logged in</label></div>
+            
+          </div>
+            <div>
+            <label  for="password" id="password">Password</label><br>
+            <input style="width: 250px; margin-top: 5px; margin-bottom: 5px;" type="password" name="password"/><br>
+            <a href="#" class="forgot-password">Forgot your password?</a>
+            </div>
+            <div><button type="submit">Login</button></div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="left-section">
+          <img src="./img/map.jpg" alt="Map Image" />
+        </div>
+        <div class="right-section">
+          <h2>Sign Up</h2>
+          <p style="font-size: 24px">It's free and anyone can join</p>
+          <br />
+          <form class="form">
+            <div>
+              <label for="first-name">First Name:</label>
+              <input type="text" id="first-name" name="first-name" />
+            </div>
+            <div>
+              <label for="last-name">Last Name:</label>
+              <input type="text" id="last-name" name="last-name" />
+            </div>
+            <div>
+              <label for="email">Your Email:</label>
+              <input type="email" id="email" name="email" />
+            </div>
+            <div>
+              <label for="password">New Password:</label>
+              <input type="password" id="password" name="password" />
+            </div>
+            <div>
+              <label for="gender">I am:</label>
+              <select id="gender" name="gender">
+                <option value="" disabled selected>Select Sex</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+            <div class="birthday">
+              <label for="birthday">Birthday:</label>
+              <select id="month" name="month">
+                <option value="" disabled selected>Month</option>
+              </select>
+              <select id="day" name="day">
+                <option value="" disabled selected>Day</option>
+              </select>
+              <select id="year" name="year">
+                <option value="" disabled selected>Year</option>
+              </select>
+            </div>
+            <p style="text-align: center;margin-bottom: 10px;">
+              <a href="#">Why do I need to provide this?</a>
+            </p>
+            <button
+              style="align-self: center"
+              type="submit"
+              class="sign-up-button"
+            >
+              Sign Up
+            </button>
+            <p class="terms" style="text-align: center">
+              By clicking Sign Up, you are indicating that you have read and
+              agree to the
+              <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-links">
+        <a href="#">English (US)</a>
+        <a href="#">Español</a>
+        <a href="#">Português (Brasil)</a>
+        <a href="#">Français (France)</a>
+        <a href="#">Deutsch</a>
+        <a href="#">Italiano</a>
+        <a href="#">العربية</a>
+        <a href="#">हिन्दी</a>
+        <a href="#">中文(简体)</a>
+        <!-- Add more languages here -->
+      </div>
+      <p>Facebook © 2010</p>
+    </div>
+  </body>
+</html>
