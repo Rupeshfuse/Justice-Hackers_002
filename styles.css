@@ -221,16 +221,6 @@ body.dark-mode .main-gradient {
   background-image: none;
   color: #ddd;
 }
-
-.footer-animation {
-  text-align: center;
-  padding: 20px;
-  background-color: #a9c9ff;
-  background-image: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
-  color: #000000;
-  animation: slideInUp 2s ease-out;
-}
-
 body.dark-mode .footer-animation {
   background-color: #000000;
   color: #ffffff;
@@ -367,6 +357,117 @@ section p {
 }
 
 
+.footer-animation {
+  background: #000000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  animation: slideInUp 5s ease-out;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  flex: 1;
+  margin: 30px;
+}
+
+.footer-logo-img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.footer-links,
+.footer-contact,
+.footer-newsletter {
+  flex: 1;
+  margin: 20px;
+}
+
+.footer-links h4,
+.footer-contact h4,
+.footer-newsletter h4 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin: 5px 0;
+}
+
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #ffd700;
+}
+
+.footer-contact p {
+  margin: 5px 0;
+}
+
+.footer-social a img {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  transition: transform 0.3s;
+}
+
+.footer-social a img:hover {
+  transform: scale(1.1);
+}
+
+.footer-newsletter form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-newsletter input {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  align-self: center;
+}
+
+.footer-newsletter button {
+  align-self: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffd700;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.footer-newsletter button:hover {
+  background-color: #ffa500;
+}
 
 
 
